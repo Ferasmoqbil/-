@@ -1,5 +1,5 @@
-print("hi ashil"); passs = input("enter your pass: ")
-if passs == 211122009:
-    print("hi ashil")
-else:
-    print("you not ashil")
+i = 11
+while i < 20:
+    print(i)
+    break
+# بسوي 11 الئ اللا نهاية ف مجرد تست بسيط
