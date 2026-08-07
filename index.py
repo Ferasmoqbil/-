@@ -2,15 +2,16 @@
 # المطلوب تطبيق يسال عن الدوله والحالة اذا كان يدرس ام لا ويحدد السعر علئ هذه المعايير
 
 Price = 100
-name = input("what's your name?").capitalize()
-country = input("where are you from? ").capitalize()
-study = input("do u study? (yes/no) ")
+name = input("what's your name?").strip().capitalize()
+country = input("where are you from? ").strip().capitalize()
+study = input("do u study? (yes/no) ").strip()
+#اضفت ال .strip() لحذف اذا قام المستخدم بادخال مسافات قبل او بعد النص المدخل و .capitalize() لجعل اول حرف من الاسم كبيره و الباقي صغيره
 
 
 #if country == "Ksa" or "Egypt" or "Yemen": (error) يجب ان يكون كل شرط على حده
 
 
-if country == "Ksa" and country == "Egypt" and country == "Yemen":
+if country == "Ksa" or country == "Egypt" or country == "Yemen":
 
 
     Price -= 50 # ينخفض السعر ب النسبه للدول العربية المحددة
