@@ -1,9 +1,9 @@
 # فقرة الاسئله
 
 
-days = int(input('which day u have born? (1-31)')).strip()
-months = int(input('which month u have born? (1-12)')).strip()
-years = int(input('which year u have born? ')).strip()
+days = int(input('which day u have born? (1-31)'))
+months = int(input('which month u have born? (1-12)'))
+years = int(input('which year u have born? '))
 
 
 # يعطي الكود تاريخ اليوم عشان يقدر يحسب كم عمره بالضبط
@@ -11,7 +11,7 @@ years = int(input('which year u have born? ')).strip()
 
 year_now = 2026
 month_now = 8+1
-day_now = 6+1
+day_now = 8+1
 years -= year_now
 months -= month_now
 days -= day_now
@@ -30,7 +30,7 @@ current_age_days = abs(days)
 # حساب ما تبقى لإكمال السنة القادمة (مثلاً لو عمره 16 و 8 أشهر، نحسب كم باقي ليكمل 17 سنة)
 
 
-rem_months = 11 - current_age_months
+rem_months = 12 - current_age_months
 rem_days = 30 - current_age_days
 
 
