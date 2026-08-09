@@ -17,7 +17,7 @@ print("My Name is : %s\nMy Age is : %d\nand My Rank is : %f"% (name, age, rank))
 
 # %s => str
 # %d => int
-# %f => flout
+# %f => float
 
 ############################################################################
 
