@@ -12,3 +12,4 @@ countryy = input("where's are you from: \n").capitalize().strip()
 #نحط الاجوبه من الاسئله بدل القيمه الافتراضيه
 
 info(newname, agee, countryy)
+# اظن اخر كود ب الفتره الصباحيه
