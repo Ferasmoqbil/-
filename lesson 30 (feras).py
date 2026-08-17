@@ -20,3 +20,28 @@ print(user.get("age"))
 print(user.keys())
 # بيطبع لي جميع العناصر في القاموس
 print(user.values())
+
+
+# Two Dimensional Dictionary
+languages = {
+    "one" : {
+        "name" : "html",
+        "progress" : "10%"
+    },
+    "Two" : {
+         "name" : "python",
+         "progress" : "80%"
+    },
+    "Three" : {
+            "name" : "Js",
+            "progress" : "10%"
+        }
+}
+
+print("=" * 50)
+print(languages)
+print("=" * 50)
+print(languages["one"])
+print("=" * 50)
+print(languages["Three"]["name"])
+print("=" * 50)
